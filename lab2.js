@@ -185,9 +185,9 @@ function lastLetterSort(stringArray) {
   return stringArray.sort(byLastLetter); // Arrays are mutable, only if declared/assigned
 }
 assert( lastLetterSort( [ "hello", "bonjour", "g\'day", "aloha" ] ).join() === [ "aloha", "hello", "bonjour", "g\'day" ].join(),
-  "the array does not appear to have sorted in revserse." );
+  "the array does not appear to have sorted in revserse by last letter." );
 assert( lastLetterSort( [ "goodbye", "sayonara", "au revior", "ooroo" ] ).join() === [ "sayonara", "goodbye", "ooroo", "au revior" ].join(),
-  "the array does not appear to have sorted in revserse." );
+  "the array does not appear to have sorted in revserse by last letter." );
 
 function sumArray(numberArray) {
   var sum = 0;
